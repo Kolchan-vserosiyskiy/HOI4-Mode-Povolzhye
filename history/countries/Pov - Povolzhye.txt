@@ -1,0 +1,32 @@
+﻿capital = 398
+
+oob = "POV_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.12.31"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 12
+	fascism = 5
+	democratic = 83
+	communism = 1
+}
+
+set_stability = 0.83
