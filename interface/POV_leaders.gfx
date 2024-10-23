@@ -1,7 +1,7 @@
 spriteTypes = {
 
-	spriteType = {
-		name = "GFX_Portrait_Kalinin"
-		texturefile = "gfx/leaders/POV/Portrait_POV_Kalinin.dds"
-	}
+spriteType = {
+name = "GFX_Portrait_Kalinin"
+texturefile = "gfx/leaders/POV/Portrait_POV_Kalinin.dds"
+}
 }	
