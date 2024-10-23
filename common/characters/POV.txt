@@ -1,0 +1,10 @@
+characters = {
+	POV_Kalinin = "Fyodor Kalinin"
+	portraits = {
+		civilian = {
+			large = GFX_Portrait_Kainin
+		}
+	}
+country_leader = {
+	ideology = socialism
+}
