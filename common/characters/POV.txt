@@ -1,11 +1,15 @@
 characters = {
-POV_Kalinin = "Fyodor Kalinin"	
+POV_Kalinin = {
+name = "Fyodor Kalinin"
 portraits = {
 civilian = {
-large = GFX_Portrait_Kainin
-}
+large = GFX_Portrait_Kalinin
 }
 }
 country_leader = {
 ideology = socialism
+expire = "1941.5.25"
+id = -1
+}
+}
 }
