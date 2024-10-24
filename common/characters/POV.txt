@@ -5,6 +5,7 @@ civilian = {
 large = GFX_Portrait_Kainin
 }
 }
+}
 country_leader = {
 ideology = socialism
 }
