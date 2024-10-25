@@ -1,0 +1,155 @@
+focus_tree = {
+	id = POV
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POV
+		}
+	}
+	default = no
+	focus = {
+		id = Pov_Krestyanskiy_bunt
+		icon = GFX_focus_ARG_air_force
+		cost = 0,10
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = POV_Buy_weapon
+		icon = GFX_goal_unknown
+		cost = 1,00
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = POV_Nabor_v_armiu
+		icon = GFX_goal_unknown
+		cost = 0,20
+		prerequisite = {
+			focus = Pov_Krestyanskiy_bunt
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = POV_get_fashist_women
+		icon = GFX_focus_SOV_womens_fascist_movement
+		cost = 0,50
+		prerequisite = {
+			focus = POV_Nabor_v_armiu
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = POV_ christianskiye_divisii
+		icon = GFX_focus_SOV_my_brothers_keeper
+		cost = 0,70
+		prerequisite = {
+			focus = POV_Nabor_v_armiu
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = POV_Get_enevy_aviation
+		icon = GFX_focus_generic_cas_aircraft
+		cost = 0,50
+		prerequisite = {
+			focus = Pov_Krestyanskiy_bunt
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = POV_Get_gold
+		icon = GFX_goal_unknown
+		cost = 0,40
+		prerequisite = {
+			focus = Pov_Krestyanskiy_bunt
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = POV_Invest gold in manufactures
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = POV_Get_gold
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = POV_Buy_volounteers
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = POV_Buy_weapon
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = POV_Buy_Artillery_and_supply
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = POV_Buy_weapon
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = POV_Buy_aircrafts
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = POV_Buy_volounteers
+			focus = POV_Buy_Artillery_and_supply
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = POV_Send_gold
+		icon = GFX_goal_unknown
+		cost = 2,00
+		prerequisite = {
+			focus = POV_Get_gold
+		}
+		mutually_exclusive = {
+			focus = POV_Keep_gold_in Perm
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = POV_Keep_gold_in Perm
+		icon = GFX_goal_unknown
+		cost = 0,40
+		prerequisite = {
+			focus = POV_Get_gold
+		}
+		mutually_exclusive = {
+			focus = POV_Send_gold
+		}
+		x = 19
+		y = 5
+
+	}
+}
