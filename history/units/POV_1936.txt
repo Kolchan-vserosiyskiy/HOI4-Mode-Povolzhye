@@ -6,13 +6,13 @@ regiments = {
 infantry = { x = 0 y = 0 }
 infantry = { x = 0 y = 1 }
 infantry = { x = 0 y = 2 }
+}
+}
 
-}
-}
 units = {
 division = {
 division_name = {
-in_name_ordered = yes
+is_name_ordered = yes
 name_order = 1
 }
 location = 3282

@@ -11,135 +11,138 @@ default = no
 focus = {
 id = Pov_Krestyanskiy_bunt
 icon = GFX_focus_ARG_air_force
-cost = 0.10
+cost = 0,10
 x = 8
 y = 0
-completion_reward = ( add_political_power = 100 ,  add_war_support = 0.4 , add_manpower = 40000, declare_war_on {
+completion_reward = { add_political_power = 100 add_war_support = 0.4 add_manpower = 40000 declare_war_on = {
 target = SOV
 type = annex_everything
-})
+}
+}
 }
 focus = {
 id = POV_Buy_weapon
 icon = GFX_goal_unknown
-cost = 1.00
+cost = 1,00
 prerequisite = {
 focus = POV_Get_gold
 }
 x = 18
 y = 2
-completion_reward = ( add_equipment_to_stockpile = {
+completion_reward = { add_equipment_to_stockpile = {
 type = infantry_equipment
 amount = 10000
 producer = POV
-} )
 }
+}
+}
+
 focus = {
 id = POV_Nabor_v_armiu
 icon = GFX_goal_unknown
-cost = 0.10
+cost = 0,10
 prerequisite = {
 focus = Pov_Krestyanskiy_bunt
 }
 x = 3
 y = 1
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Get_fashist_women
 icon = GFX_focus_SOV_womens_fascist_movement
-cost = 0.50
+cost = 0,50
 prerequisite = {
 focus = POV_Nabor_v_armiu
 }
 x = 1
 y = 2
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Christianskiye_divisii
 icon = GFX_focus_SOV_my_brothers_keeper
-cost = 0.70
+cost = 0,70
 prerequisite = {
 focus = POV_Nabor_v_armiu
 }
 x = 3
 y = 2
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Get_enevy_aviation
 icon = GFX_focus_generic_cas_aircraft
-cost = 0.50
+cost = 0,50
 prerequisite = {
 focus = Pov_Krestyanskiy_bunt
 }
 x = 9
 y = 1
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Get_gold
 icon = GFX_goal_unknown
-cost = 0.40
+cost = 0,40
 prerequisite = {
 focus = Pov_Krestyanskiy_bunt
 }
 x = 18
 y = 1
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Invest_gold_in_manufactures
 icon = GFX_goal_unknown
-cost = 3.00
+cost = 3,00
 prerequisite = {
 focus = POV_Get_gold
 }
 x = 14
 y = 2
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Buy_volounteers
 icon = GFX_goal_unknown
-cost = 2.00
+cost = 2,00
 prerequisite = {
 focus = POV_Buy_weapon
 }
 x = 17
 y = 3
-completion_reward = ( )
+completion_reward = {}
 }
 focus = {
 id = POV_Buy_Artillery_and_supply
 icon = GFX_goal_unknown
-cost = 1.00
+cost = 1,00
 prerequisite = {
 focus = POV_Buy_weapon
 }
 x = 19
 y = 3
-completion_reward = ( )
+completion_reward = {}
 }
 
 focus = {
 id = POV_Buy_aircrafts
 icon = GFX_goal_unknown
-cost = 1.00
+cost = 1,00
 prerequisite = {
 focus = POV_Buy_volounteers
 focus = POV_Buy_Artillery_and_supply
 }
 x = 18
 y = 4
-completion_reward = ( )
+completion_reward = {}
 }
 
 focus = {
 id = POV_Send_gold
 icon = GFX_goal_unknown
-cost = 2.00
+cost = 2,00
 prerequisite = {
 focus = POV_Get_gold
 }
@@ -148,13 +151,13 @@ focus = POV_Keep_gold_in_Perm
 }
 x = 17
 y = 5
-completion_reward = ( )
+completion_reward = {}
 }
 
 focus = {
 id = POV_Keep_gold_in_Perm
 icon = GFX_goal_unknown
-cost = 0.40
+cost = 0,40
 prerequisite = {
 focus = POV_Get_gold
 }
@@ -163,6 +166,7 @@ focus = POV_Send_gold
 }
 x = 19
 y = 5
-completion_reward = ( )
+completion_reward = {}
 }
 }
+
