@@ -151,7 +151,7 @@ prerequisite = {
 focus = POV_Get_gold
 }
 mutually_exclusive = {
-focus = POV_Keep_gold_in_Perm
+focus = POV_Keep_gold 
 }
 x = 17
 y = 5
@@ -159,7 +159,7 @@ completion_reward = {}
 }
 
 focus = {
-id = POV_Keep_gold_in_Perm
+id = POV_Keep_gold
 icon = GFX_goal_unknown
 cost = 0.40
 prerequisite = {
