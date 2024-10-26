@@ -7,7 +7,6 @@ add = 10
 tag = POV
 }
 }
-}
 default = no
 focus = {
 id = Pov_Krestyanskiy_bunt
@@ -18,7 +17,7 @@ y = 0
 completion_reward = { add_political_power = 100 add_war_support = 0.4 add_manpower = 40000 declare_war_on = {
 target = SOV
 type = annex_everything
-}
+}}
 }
 focus = {
 id = POV_Buy_weapon
@@ -33,8 +32,7 @@ completion_reward = { add_equipment_to_stockpile = {
 type = infantry_equipment
 amount = 10000
 producer = POV
-}
-}
+}}
 }
 
 focus = {
@@ -48,28 +46,31 @@ x = 3
 y = 1
 completion_reward = {}
 }
+
 focus = {
 id = POV_Get_fashist_women
 icon = GFX_focus_SOV_womens_fascist_movement
 cost = 0,50
 prerequisite = {
-focus = POV_Nabor_v_armiu
+focus = POV_Agitaciya_v_tylu_vraga
 }
 x = 1
 y = 2
 completion_reward = {}
 }
+
 focus = {
 id = POV_Christianskiye_divisii
 icon = GFX_focus_SOV_my_brothers_keeper
 cost = 0.70
 prerequisite = {
-focus = POV_Nabor_v_armiu
+focus = POV_Agitaciya_v_tylu_vraga
 }
 x = 3
 y = 2
 completion_reward = {}
 }
+
 focus = {
 id = POV_Get_enevy_aviation
 icon = GFX_focus_generic_cas_aircraft
@@ -92,6 +93,7 @@ x = 18
 y = 1
 completion_reward = {}
 }
+
 focus = {
 id = POV_Invest_gold_in_manufactures
 icon = GFX_goal_unknown
@@ -103,6 +105,7 @@ x = 14
 y = 2
 completion_reward = {}
 }
+
 focus = {
 id = POV_Buy_volounteers
 icon = GFX_goal_unknown
@@ -114,6 +117,7 @@ x = 17
 y = 3
 completion_reward = {}
 }
+
 focus = {
 id = POV_Buy_artillery_and_supply
 icon = GFX_goal_unknown
@@ -169,4 +173,3 @@ y = 5
 completion_reward = {}
 }
 }
-
