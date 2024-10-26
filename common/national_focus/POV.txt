@@ -50,7 +50,7 @@ completion_reward = {}
 focus = {
 id = POV_Get_fashist_women
 icon = GFX_focus_SOV_womens_fascist_movement
-cost = 0,50
+cost = 0.50
 prerequisite = {
 focus = POV_Agitaciya_v_tylu_vraga
 }
@@ -136,7 +136,7 @@ icon = GFX_goal_unknown
 cost = 1.00
 prerequisite = {
 focus = POV_Buy_volounteers
-focus = POV_Buy_Artillery_and_supply
+focus = POV_Buy_artillery_and_supply
 }
 x = 18
 y = 4
