@@ -44,39 +44,10 @@ POV_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { ARM_GAR_01 }
 
-	fallback_name = "%dya Povozhskaya Krestyanskaya Div."
+	fallback_name = "% Povozhskaya Krestyanskaya Div."
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
-	ordered =
-	{
-		1 = { "%dya Povozhskaya Krestyanskaya Div." }
-		2 = { "%dya Povozhskaya Krestyanskaya Div." }
-		3 = { "%dya Povozhskaya Krestyanskaya Div." }
-		4 = { "%dya Povozhskaya Krestyanskaya Div." }
-		5 = { "%dya Povozhskaya Krestyanskaya Div." }
-		6 = { "%dya Povozhskaya Krestyanskaya Div." }
-		7 = { "%dya Povozhskaya Krestyanskaya Div." }
-		8 = { "%dya Povozhskaya Krestyanskaya Div." }
-		9 = { "%dya Povozhskaya Krestyanskaya Div." }
-		10 = { "%dya Povozhskaya Krestyanskaya Div." }
-		11 = { "%dya Povozhskaya Krestyanskaya Div." }
-		12 = { "%dya Povozhskaya Krestyanskaya Div." }
-		13 = { "%dya Povozhskaya Krestyanskaya Div." }
-		14 = { "%dya Povozhskaya Krestyanskaya Div." }
-		15 = { "%dya Povozhskaya Krestyanskaya Div." }
-		16 = { "%dya Povozhskaya Krestyanskaya Div." }
-		17 = { "%dya Povozhskaya Krestyanskaya Div." }
-		18 = { "%dya Povozhskaya Krestyanskaya Div." }
-		19 = { "%dya Povozhskaya Krestyanskaya Div." }
-		20 = { "%dya Povozhskaya Krestyanskaya Div." }
-		21 = { "%dya Povozhskaya Krestyanskaya Div." }
-		22 = { "%dya Povozhskaya Krestyanskaya Div." }
-		23 = { "%dya Povozhskaya Krestyanskaya Div." }
-		24 = { "%dya Povozhskaya Krestyanskaya Div." }
-		25 = { "%dya Povozhskaya Krestyanskaya Div." }
-
-	}
 }
 
 

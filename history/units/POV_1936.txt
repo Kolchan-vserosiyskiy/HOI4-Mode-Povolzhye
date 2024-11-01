@@ -12,15 +12,63 @@ infantry = { x = 0 y = 2 }
 units = {
 division = {
 division_name = {
-is_name_ordered = yes
-name_order = 1
+is_name_ordered = no
 }
 location = 3282
 division_template = "Krestyane"
 start_experience_factor = 0.0
 start_equipment_factor = 0.7
 }
+
+
+division = {
+	division_name = {
+	is_name_ordered = yes
+	name_order = 1
+	}
+	location = 11281
+	division_template = "Krestyane"
+	start_experience_factor = 0.0
+	start_equipment_factor = 0.7
+	}
+
+division = {
+		division_name = {
+		is_name_ordered = yes
+		name_order = 2
+		}
+		location = 4356
+		division_template = "Krestyane"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		}
+		
+division = {
+	division_name = {
+		is_name_ordered = yes
+		name_order = 3
+		}
+		location = 392
+		division_template = "Krestyane"
+		start_experience_factor = 0.0
+		start_equipment_factor = 0.7
+		}
+division = {
+			division_name = {
+			is_name_ordered = yes
+			name_order = 4
+			}
+			location = 4354
+			division_template = "Krestyane"
+			start_experience_factor = 0.0
+			start_equipment_factor = 0.7
+			}
+					
 }
+	
+		
+	
+	
 
 instant_effect = {
 add_equipment_production = {
@@ -28,7 +76,7 @@ equipment = {
 type = infantry_equipment_1
 creator = "POV"
 }
-requested_factories = 1
+requested_factories = 2		
 progress = 0.19
 efficiency = 100
 }
