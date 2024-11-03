@@ -17,15 +17,7 @@ y = 0
 completion_reward = { add_political_power = 100 add_war_support = 0.4 add_manpower = 40000 
 declare_war_on = {
     target = SOV
-    type = annex_everything
-}
-create_unit = {
-    division = "division_template = \"Krestyane\" start_experience_factor = 0.5 start_equipment_factor = 1.0"
-    owner = ROOT
-    count = 3
-}
-}
-}
+    type = annex_everything } } }
 
 focus = {
 id = POV_Buy_weapon
@@ -39,7 +31,7 @@ y = 2
 completion_reward = { add_equipment_to_stockpile = {
 type = infantry_equipment
 amount = 10000
-producer = POV }  
+producer = ENG }  
 add_political_power = -20 }
 }
 
@@ -117,25 +109,23 @@ add_building_construction = {
     type = arms_factory
     level = 1
     instant_build = yes
-    state = 251
 }
 add_building_construction = {
     type = arms_factory
     level = 1
     instant_build = yes
-    state = 251
+
 }
 add_building_construction = {
     type = arms_factory
     level = 1
     instant_build = yes
-    state = 251
 }
 }
 }
 
 focus = {
-id = POV_Buy_volounteers
+id = POV_Buy_soldiers
 icon = GFX_goal_unknown
 cost = 2.00
 prerequisite = {
@@ -172,7 +162,7 @@ id = POV_Buy_aircrafts
 icon = GFX_goal_unknown
 cost = 1.00
 prerequisite = {
-focus = POV_Buy_volounteers
+focus = POV_Buy_soldiers
 focus = POV_Buy_artillery_and_supply
 }
 x = 18
